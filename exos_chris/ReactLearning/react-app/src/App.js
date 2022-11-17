@@ -1,23 +1,19 @@
 // on ferme les balises auto fermant comme p ou br ou h1 etc
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Form from './components/Form'
+import React from "react"
 
 
 function App() {
 
-   
 
     return (
 		<div className="App">
-      <h1 className="text-center mt-3">Todo list</h1>
-      <Form />
-
-
-
+      <h1 className="text-center mt-3" >Todo list</h1>
+      <Form/>
 		</div>
     );
 }
-
 
 export default App;
 
